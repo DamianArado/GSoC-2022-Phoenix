@@ -14,4 +14,6 @@
 
 - *Year*: **`2022`**
 
-TODO: Define other sections inside the repository
+- [`Project Roadmap`](https://github.com/DamianArado/GSoC-2022-Phoenix/blob/main/ROADMAP.md)
+
+- [`Project Progress`](https://github.com/DamianArado/GSoC-2022-Phoenix/blob/main/PROGRESS.md)
