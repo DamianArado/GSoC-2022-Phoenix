@@ -16,4 +16,6 @@
 
 - [`Project Roadmap`](https://github.com/DamianArado/GSoC-2022-Phoenix/blob/main/ROADMAP.md)
 
-- [`Project Progress`](https://github.com/DamianArado/GSoC-2022-Phoenix/blob/main/PROGRESS.md)
+- [`Project Progress`](https://github.com/DamianArado/GSoC-2022-Phoenix/blob/main/PROGRESS.md)  
+
+[![Gitter](https://badges.gitter.im/GSoC-2022-Phoenix/community.svg)](https://gitter.im/GSoC-2022-Phoenix/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
