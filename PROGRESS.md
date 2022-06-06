@@ -2,12 +2,22 @@
 
 Here, I will log the weekly progress. This will be updated twice a week - on Monday and Thursday.  
 
-### Week 1 (May 30 - June 6, 2022)  
+### Week 1 (May 30 - June 5, 2022)  
 
-- Introductory video chat between the mentors and me in order to get to know each other and the work we do
-- Read about the testing framework which is better to use (faster execution, easy configuration and maintenance) in order to refine the project plan
-- Divide the project deliverables into smaller parts
-- Finalize estimated deadlines and milestones
-- Try to figure out potential issues that may occur beforehand
-- Ask Ed & Fawad whether they agree to the milestones and if they have any doubts/questions for me (asking for feedback)
-- Agree with Ed & Fawad upon the way of communication throughout the project duration
+- Introductory video chat between the mentors and me in order to get to know each other and the work we do.
+- Read about the testing framework which is better to use (faster execution, easy configuration, and maintenance) in order to refine the project plan.
+- Divide the project deliverables into smaller parts.
+- Finalize estimated deadlines and milestones.
+- Try to figure out potential issues that may occur beforehand.
+- Ask Ed & Fawad whether they agree to the milestones and if they have any doubts/questions for me (asking for feedback).
+- Agree with Ed & Fawad on the way of communication throughout the project duration.
+
+### Week 2 (June 6 - 12, 2022)  
+
+- This week would be full of reading documentation and guides in order to make sure I don't lack the required theoretical knowledge for starting the project properly.
+- Be in sync with the project regularly in order to avoid merge conflicts in future and my setup is ready on Windows 11 and I'll use VS Code. I don't have any problems reproducing the required development environment of Phoenix.
+- Read about TypeScript and Angular - just a quick refresher.
+- Read in-depth about the general unit and integration testing conventions.
+- Read about Jasmine and Jest as from the next week, I would be rewriting the unit tests of *`phoenix-event-display`* that were written in Jasmine to use Jest. 
+- 
+
