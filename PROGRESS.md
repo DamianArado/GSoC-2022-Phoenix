@@ -17,7 +17,8 @@ Here, I will log the weekly progress. This will be updated twice a week - on Mon
 - This week would be full of reading documentation and guides in order to make sure I don't lack the required theoretical knowledge for starting the project properly.
 - Be in sync with the project regularly in order to avoid merge conflicts in future and my setup is ready on Windows 11 and I'll use VS Code. I don't have any problems reproducing the required development environment of Phoenix.
 - Read about TypeScript and Angular - just a quick refresher.
-- Read in-depth about the general unit and integration testing conventions.
+- Read in-depth about the **general unit and integration testing conventions**.
 - Read about Jasmine and Jest as from the next week, I would be rewriting the unit tests of *`phoenix-event-display`* that were written in Jasmine to use Jest. 
-- 
-
+- Create issues that need to be solved as a part of the [first Coding period](https://github.com/DamianArado/GSoC-2022-Phoenix/blob/main/ROADMAP.md#coding-period---i).
+- Ask for the target branches where I need to merge my changes done in *`phoenix-event-display`* and create source branches in my own fork.
+- Try to test a few modules using Jest myself locally before introducing it in *`phoenix-event-display`*.
