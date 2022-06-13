@@ -22,3 +22,10 @@ Here, I will log the weekly progress. This will be updated twice a week - on Mon
 - Create issues that need to be solved as a part of the [first Coding period](https://github.com/DamianArado/GSoC-2022-Phoenix/blob/main/ROADMAP.md#coding-period---i).
 - Ask for the target branches where I need to merge my changes done in *`phoenix-event-display`* and create source branches in my own fork.
 - Try to test a few modules using Jest myself locally before introducing it in *`phoenix-event-display`*.
+
+### Week 3 (June 13 - 19, 2022)  
+
+- Remove Jasmine and Karma setup and add Jest-based setup.
+- Start writing unit tests using Jest for *`phoenix-event-display`*.  
+- Throughout the week, the plan is to complete writing tests for the module [`managers`](https://github.com/HSF/phoenix/tree/master/packages/phoenix-event-display/src/managers). 
+- All the work is being done on the branch [**`jest-phoenix-event-display`**](https://github.com/DamianArado/phoenix/tree/jest-phoenix-event-display)
