@@ -2,7 +2,7 @@
 
 ### Community Bonding Period  
 
-- [ ] **[May 20 - June 12]**: Laying out the testing strategy for Phoenix 
+- [x] **[May 20 - June 12]**: Laying out the testing strategy for Phoenix 
 
 ### Coding Period - I
 
