@@ -28,4 +28,5 @@ Here, I will log the weekly progress. This will be updated twice a week - on Mon
 - Remove Jasmine and Karma setup and add Jest-based setup.
 - Start writing unit tests using Jest for *`phoenix-event-display`*.  
 - Throughout the week, the plan is to complete writing tests for the module [`managers`](https://github.com/HSF/phoenix/tree/master/packages/phoenix-event-display/src/managers). 
-- All the work is being done on the branch [**`jest-phoenix-event-display`**](https://github.com/DamianArado/phoenix/tree/jest-phoenix-event-display)
+- All the work is being done on the branch [**`jest-phoenix-event-display`**](https://github.com/DamianArado/phoenix/tree/jest-phoenix-event-display)  
+- After some initial jitters and conflict between `@types/jasmine` and `@types/jest`, I have removed `@types/jasmine` for the time-being so that proper jest config has been setup, Continuing the work as planned above.
