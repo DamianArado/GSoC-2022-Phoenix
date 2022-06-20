@@ -29,4 +29,13 @@ Here, I will log the weekly progress. This will be updated twice a week - on Mon
 - Start writing unit tests using Jest for *`phoenix-event-display`*.  
 - Throughout the week, the plan is to complete writing tests for the module [`managers`](https://github.com/HSF/phoenix/tree/master/packages/phoenix-event-display/src/managers). 
 - All the work is being done on the branch [**`jest-phoenix-event-display`**](https://github.com/DamianArado/phoenix/tree/jest-phoenix-event-display)  
-- After some initial jitters and conflict between `@types/jasmine` and `@types/jest`, I have removed `@types/jasmine` for the time-being so that proper jest config has been setup, Continuing the work as planned above.
+- After some initial jitters and conflict between `@types/jasmine` and `@types/jest`, I have removed `@types/jasmine` for the time-being so that proper jest config has been setup, Continuing the work as planned above.  
+- With the help of Fawad (a big thanks to him for helping me out with this), I was able to get rid of errors that made it difficult for the tests to run locally.  
+- 
+### Week 4 (June 20 - 26, 2022)  
+
+- Write tests for `helpers`, `lib` and `managers` (It was not as easy as I thought).
+- The initial goal is to try and write unit tests for each file inside *`phoenix-event-display`*.  
+- And after that, I will focus on increasing the code coverage.  
+- Hence, initially the code coverage would be low.  
+- 
