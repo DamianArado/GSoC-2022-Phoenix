@@ -1,6 +1,6 @@
 # Project Progress Tracker 
 
-Here, I will log the weekly progress. This will be updated twice a week - on Monday and Thursday.  
+Here, I will log my weekly progress and learnings. This will be updated twice a week - on Monday and Thursday.  
 
 ### Week 1 (May 30 - June 5, 2022)  
 
@@ -31,11 +31,14 @@ Here, I will log the weekly progress. This will be updated twice a week - on Mon
 - All the work is being done on the branch [**`jest-phoenix-event-display`**](https://github.com/DamianArado/phoenix/tree/jest-phoenix-event-display)  
 - After some initial jitters and conflict between `@types/jasmine` and `@types/jest`, I have removed `@types/jasmine` for the time-being so that proper jest config has been setup, Continuing the work as planned above.  
 - With the help of Fawad (a big thanks to him for helping me out with this), I was able to get rid of errors that made it difficult for the tests to run locally.  
-- 
+
 ### Week 4 (June 20 - 26, 2022)  
 
 - Write tests for `helpers`, `lib` and `managers` (It was not as easy as I thought).
 - The initial goal is to try and write unit tests for each file inside *`phoenix-event-display`*.  
 - And after that, I will focus on increasing the code coverage.  
 - Hence, initially the code coverage would be low.  
-- 
+- I realized a very important thing as pointed out accurately by Fawad that I was focussing on the wrong thing – increasing code coverage of each of the modules but instead I should focus on testing the behavior of each unit (class, function, etc) properly and that will itself increase the overall code coverage.  
+- Also, I got to know from Fawad, how to test static functions: instead of mocking them, we should treat them as standalone functions.
+- Submitted PR for the week: https://github.com/HSF/phoenix/pull/462  
+
