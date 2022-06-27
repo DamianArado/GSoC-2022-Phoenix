@@ -42,3 +42,8 @@ Here, I will log my weekly progress and learnings. This will be updated twice a 
 - Also, I got to know from Fawad, how to test static functions: instead of mocking them, we should treat them as standalone functions.
 - Submitted PR for the week: https://github.com/HSF/phoenix/pull/462  
 
+### Week 5 (June 27 - July 3, 2022)  
+
+- Throughout this week, I plan to write unit tests for [`managers`](https://github.com/HSF/phoenix/tree/master/packages/phoenix-event-display/src/managers) and [`loaders`](https://github.com/HSF/phoenix/tree/master/packages/phoenix-event-display/src/loaders).  
+- That would be a lot of files to test, so let's get this done.
+- The focus would be on testing the behavious properly and not on the coverage as learnt earlier.
