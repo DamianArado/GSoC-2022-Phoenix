@@ -45,5 +45,8 @@ Here, I will log my weekly progress and learnings. This will be updated twice a 
 ### Week 5 (June 27 - July 3, 2022)  
 
 - Throughout this week, I plan to write unit tests for [`managers`](https://github.com/HSF/phoenix/tree/master/packages/phoenix-event-display/src/managers) and [`loaders`](https://github.com/HSF/phoenix/tree/master/packages/phoenix-event-display/src/loaders).  
-- That would be a lot of files to test, so let's get this done.
-- The focus would be on testing the behavious properly and not on the coverage as learnt earlier.
+- The focus would be *on testing the behavious properly and not on the coverage* as learnt earlier.
+- I faced a big issue where tests that used `WebGLRenderer` as a dependency were not able to run at all as its not possible to create a `WebGLContext` in jest tests and after researching a bit alongwith Fawad, I got to know that I have to mock WebGLRenderer but that lead to objects of WebGLRenderer being `undefined`. As a workaround, I added a helper function `createRenderer` that makes it easy to use objects of WebGLRenderer in our tests.
+- Wrote test cases for majority of the files in `managers`. Just facing difficulties in testing `ThreeManager` and `UIManager` classes as they use WebGLRenderer as a dependency. Need to find a way out.
+- After writing unit tests for `loaders`, I plan to devote time to `ThreeManager` and `UIManager` specifically.
+- And after that, the test suite for each eligible file inside `phoenix-event-display` would be ready and sent to be reviewed via a PR. 
