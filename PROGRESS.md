@@ -50,3 +50,11 @@ Here, I will log my weekly progress and learnings. This will be updated twice a 
 - Wrote test cases for majority of the files in `managers`. Just facing difficulties in testing `ThreeManager` and `UIManager` classes as they use WebGLRenderer as a dependency. Need to find a way out.
 - After writing unit tests for `loaders`, I plan to devote time to `ThreeManager` and `UIManager` specifically.
 - And after that, the test suite for each eligible file inside `phoenix-event-display` would be ready and sent to be reviewed via a PR. 
+- Submitted PR for the week: https://github.com/HSF/phoenix/pull/473
+
+### Week 6 (July 4 - 10, 2022)
+
+- Its the 4th week of the coding period and by that, I meant the first deliverable of my project, i.e., to write unit tests for *`phoenix-event-display`* would have to be completed. So, I'll be treating this week as a deadline for that.
+- In the last PR, I did make a few mistakes of writing trivial test cases that used `spies` a lot but thanks Fawad for his proper review, I realised that I was actually not testing the methods and objects accurately.
+- Hence, currently I'm working to update each and every test suite in the last PR.
+- After this, I would be revisiting the remaining files again and would add/update/remove things accordingly.
