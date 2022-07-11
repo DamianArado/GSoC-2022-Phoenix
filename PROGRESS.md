@@ -59,3 +59,10 @@ Here, I will log my weekly progress and learnings. This will be updated twice a 
 - Hence, currently I'm working to update each and every test suite in the last PR.
 - After this, I would be revisiting the remaining files again and would add/update/remove things accordingly.
 - Still working on the last PR, should be ready by Friday. All thanks to Fawad, I could enhance the test suites due to his eye for details. His code review helps me a lot everytime.
+- The last PR is still to be reviewed, so I started working on the next PR.
+
+### Week 7 (July 11 - 17, 2022)
+
+- With the next PR, I plan to add tests for some of the files which were left untested earlier in *`phoenix-event-display`*.
+- Also, from this week, I'll be starting to work on the unit tests for *`phoenix-ui-components`* and *`phoenix-app`* which is the second milestone for the project.
+- I will also analyze whether we can/we should convert all the unit tests here to use Jest or not.
