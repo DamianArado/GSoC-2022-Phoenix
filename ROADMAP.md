@@ -6,7 +6,7 @@
 
 ### Coding Period - I
 
-- [ ] **[June 13 - July 3]** Rewriting the unit-tests for [`phoenix-event-display`](https://github.com/HSF/phoenix/tree/master/packages/phoenix-event-display) to use Jest instead of Jasmine and Karma
+- [x] **[June 13 - July 3]** Rewriting the unit-tests for [`phoenix-event-display`](https://github.com/HSF/phoenix/tree/master/packages/phoenix-event-display) to use Jest instead of Jasmine and Karma
 
 - [ ] **[July 3 - July 25]** Rewriting tests for [`phoenix-ui-components`](https://github.com/HSF/phoenix/tree/master/packages/phoenix-ng/projects/phoenix-ui-components) and [`phoenix-app`](https://github.com/HSF/phoenix/tree/master/packages/phoenix-ng/projects/phoenix-app) to use Jest instead of Jasmine and Karma
 
