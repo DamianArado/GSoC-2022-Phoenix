@@ -68,3 +68,11 @@ Here, I will log my weekly progress and learnings. This will be updated twice a 
 - I will also analyze whether we can/we should convert all the unit tests here to use Jest or not.
 - Thankfully, due to superb code reviews by Fawad, I'm able to finish writing unit tests in *`phoenix-event-display`*. Only a couple of them remains to be written - `three-manager/index.ts` and `ui-manager/index.ts` and they will involve heavy mocking due to the inability of creating `WebGLContext` in tests (as both `three-manager` & `ui-manager` have `WebGLRenderer` as a dependency). `JSDom` environment in Jest doesn't use a real DOM, it just emulates one, and it can be a potential issue in testing three.js with Jest. But apart from this, I had a good first experience with Jest here.
 - By this week, I plan to update the setup of *`phoenix-ui-components`* and *`phoenix-app`* to use Jest for unit testing as well so that we have uniformity in the unit testing framework, that we use throughout Phoenix. But before that, I'll try setting up the configuration properly and see how it goes.
+
+### Week 8 (July 18 - 24, 2022)
+
+- The initial setup for the migration of unit tests inside *`phoenix-ui-components`* and *`phoenix-app`* is ready and is available at this  branch [**`jest-phoenix-app`**](https://github.com/DamianArado/phoenix/tree/jest-phoenix-app).
+- This also involved changes in the module  structure inside *`phoenix-ng`*.
+- All the old tests do run using Jest but they are throwing up errors as of now. Hopefully, that can be fixed. 
+- Throughout this week, my focus would be to work on the unit-testing setup of *`phoenix-ng`*.
+- I proposed that we should only use Jest for our unit tests and since, we will not use Protractor for our end-to-end tests, there is no requirement for Jasmine or Karma now. Let's wait for the feedback from Fawad and Ed as to whether this is good for Phoenix or not.
