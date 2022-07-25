@@ -76,3 +76,10 @@ Here, I will log my weekly progress and learnings. This will be updated twice a 
 - All the old tests do run using Jest but they are throwing up errors as of now. Hopefully, that can be fixed. 
 - Throughout this week, my focus would be to work on the unit-testing setup of *`phoenix-ng`*.
 - I proposed that we should only use Jest for our unit tests and since, we will not use Protractor for our end-to-end tests, there is no requirement for Jasmine or Karma now. Let's wait for the feedback from Fawad and Ed as to whether this is good for Phoenix or not.
+
+### Week 9 (July 25 - 31, 2022)
+
+- We have `midterm evaluation` this week and as of now, I'm working on the migration of unit tests inside *`phoenix-ng`* to Jest. Hoping to finish this by the end of the week.
+- This seemed quite trivial to me at the start but here, I was bewildered with lengths and breadths of errors that showed up throughout the setup of Jest configuration inside the Angular project. Main ones being the `three/examples/jsm` files (yet again!).
+- Firstly, I tried having separate jest config for each of *`phoenix-ui-components`* and *`phoenix-app`* but then, I thought of merging both the config as a single one inside *`phoenix-ng`*. 
+- Jest and Jasmine APIs are quite compatible so that is a relief for me and some of the tests do pass. But the major issue here is created by `tweenjs` which is imported inside `controls-manager`. A lot of the tests inside `phoenix-ng` fail due to this import. Tried adding dependencies and module declaration file but it didn't fix that. Trying to find out a solution hopefully.
