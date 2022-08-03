@@ -83,3 +83,13 @@ Here, I will log my weekly progress and learnings. This will be updated twice a 
 - This seemed quite trivial to me at the start but here, I was bewildered with lengths and breadths of errors that showed up throughout the setup of Jest configuration inside the Angular project. Main ones being the `three/examples/jsm` files (yet again!).
 - Firstly, I tried having separate jest config for each of *`phoenix-ui-components`* and *`phoenix-app`* but then, I thought of merging both the config as a single one inside *`phoenix-ng`*. 
 - Jest and Jasmine APIs are quite compatible so that is a relief for me and some of the tests do pass. But the major issue here is created by `tweenjs` which is imported inside `controls-manager`. A lot of the tests inside `phoenix-ng` fail due to this import. Tried adding dependencies and module declaration file but it didn't fix that. Hoping to find out a solution soon.
+- Submitted PR for the week: https://github.com/HSF/phoenix/pull/491
+
+### Week 10 (August 1 - 7, 2022)  
+
+- Later last week, some significant changes were made that included a merger of branches `jest-phoenix-event-display` and `jest-phoenix-app` into the new branch `jest-ng`. This will help us to make sure that we don't encounter any conflict hell (yikes!) in future and we will keep it in sync with `master` branch.
+- All thanks to fawad, the tweenjs error was gone after the aforementioned merging of branches and I was able to start the migration of the testing suites inside `phoenix-ng` from `Jasmine` to `Jest`.
+- From now on, all the changes that are to be committed by me for the project will be done on [`jest-ng`](https://github.com/HSF/phoenix/tree/jest-ng).
+- When I started the migration, most of tests failed as they called the "real" Angular services instead of the fake ones.
+- After extensive mocking, I am able to migrate `46 out of the 54 testing suites` inside `phoenix-app` and `phoenix-ui-components`.
+- For now, I have `skipped those 8 test suites` and plan to fix them one-by-one as they are somewhat complex.
