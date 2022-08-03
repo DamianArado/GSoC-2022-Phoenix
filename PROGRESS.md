@@ -88,8 +88,9 @@ Here, I will log my weekly progress and learnings. This will be updated twice a 
 ### Week 10 (August 1 - 7, 2022)  
 
 - Later last week, some significant changes were made that included a merger of branches `jest-phoenix-event-display` and `jest-phoenix-app` into the new branch `jest-ng`. This will help us to make sure that we don't encounter any conflict hell (yikes!) in future and we will keep it in sync with `master` branch.
+- `jest-phoenix-app` has been renamed to `jest-ng` and then `jest-phoenix-event-display` has been merged into it.
 - All thanks to fawad, the tweenjs error was gone after the aforementioned merging of branches and I was able to start the migration of the testing suites inside `phoenix-ng` from `Jasmine` to `Jest`.
 - From now on, all the changes that are to be committed by me for the project will be done on [`jest-ng`](https://github.com/HSF/phoenix/tree/jest-ng).
 - When I started the migration, most of tests failed as they called the "real" Angular services instead of the fake ones.
-- After extensive mocking, I am able to migrate `46 out of the 54 testing suites` inside `phoenix-app` and `phoenix-ui-components`.
+- After extensive mocking, I am successfully able to migrate `46 out of the 54 testing suites` inside `phoenix-app` and `phoenix-ui-components`. I also increased the overall coverage by adding more test cases.
 - For now, I have `skipped those 8 test suites` and plan to fix them one-by-one as they are somewhat complex.
