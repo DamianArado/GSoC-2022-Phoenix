@@ -1,6 +1,6 @@
 # Project Progress Tracker 
 
-Here, I will log my weekly progress and learnings. This will be updated twice a week - on Monday and Thursday.  
+Here, I will log my weekly progress and learnings. This will be updated twice a week.
 
 ### Week 1 (May 30 - June 5, 2022)  
 
