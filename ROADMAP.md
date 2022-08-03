@@ -1,7 +1,5 @@
 # Project Roadmap  
 
-Last revised on 25th July, 2022.
-
 ### Community Bonding Period  
 
 - [x] **[May 20 - June 12]:** Defining the goals and layout of the testing infrastructure for Phoenix 
@@ -10,9 +8,9 @@ Last revised on 25th July, 2022.
 
 - [x] **[June 13 - July 3]:** Rewriting the unit-tests for [`phoenix-event-display`](https://github.com/HSF/phoenix/tree/master/packages/phoenix-event-display) to use Jest instead of Jasmine and Karma.
 
-- [ ] **[July 3 - July 25]:** Migrating unit tests for [`phoenix-ui-components`](https://github.com/HSF/phoenix/tree/master/packages/phoenix-ng/projects/phoenix-ui-components) and [`phoenix-app`](https://github.com/HSF/phoenix/tree/master/packages/phoenix-ng/projects/phoenix-app) to Jest from Jasmine and Karma.
+- [x] **[July 3 - July 25]:** Migrating unit tests for [`phoenix-ui-components`](https://github.com/HSF/phoenix/tree/master/packages/phoenix-ng/projects/phoenix-ui-components) and [`phoenix-app`](https://github.com/HSF/phoenix/tree/master/packages/phoenix-ng/projects/phoenix-app) to Jest from Jasmine and Karma.
 
-- [ ] **[July 25 - July 29]:** Contributor and Mentor Midterm Evaluation.
+- [x] **[July 25 - July 29]:** Contributor and Mentor Midterm Evaluation.
 
 ### Coding Period - II
 
