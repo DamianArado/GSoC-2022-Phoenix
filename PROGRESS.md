@@ -94,3 +94,11 @@ Here, I will log my weekly progress and learnings. This will be updated twice a 
 - When I started the migration, most of tests failed as they called the "real" Angular services instead of the fake ones.
 - After extensive mocking, I am successfully able to migrate `46 out of the 54 testing suites` inside `phoenix-app` and `phoenix-ui-components`. I also increased the overall coverage by adding more test cases.
 - For now, I have `skipped those 8 test suites` and plan to fix them one-by-one as they are somewhat complex.
+
+### Week 11 - 12 (August 8 - 21, 2022)
+
+- Except the 2 test suites inside `phoenix-ng`, all the remaining ones have been successfully migrated to Jest from Jasmine.
+- Right now, I'm just stuck with an issue that the Jest tests run fine locally but 3 of them in `phoenix-event-display` (`SelectionManager`, `EffectsManager` and `XrManager` won't run as they use `WebGLRenderer` (yeah, it's back to annoy me again!). 
+- I'm trying to find a way to create the required environment (possibly a [`headless-gl`](https://github.com/descriptinc/headless-gl) based environment) for these tests to execute themselves successfully on the CI.
+- The submitted PR that has been continuing since more than a week: https://github.com/HSF/phoenix/pull/492
+- By this week, I plan to get this PR merged and send one more with e2e tests that I'm currently working on locally as well.
