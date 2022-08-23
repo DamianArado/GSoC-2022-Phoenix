@@ -14,9 +14,9 @@
 
 ### Coding Period - II
 
-- [ ] **[July 29 - August 19]:** Introducing and setting up end-to-end (e2e) testing framework and write e2e tests for `phoenix-app` using Cypress.
+- [x] **[July 29 - August 19]:** Introducing and setting up end-to-end (e2e) testing framework and write e2e tests for `phoenix-app` using Cypress.
 
-- [ ] **[August 19 - August 29]:** Adding integration tests for `phoenix-app` which uses `phoenix-ui-components` using Jest.
+- [ ] **[August 19 - August 29]:** Creating a new branch `jasmine-karma` and adding more unit tests on this branch. After this, we will choose whether we should use Jest or Jasmine for unit tests in Phoenix.
 
 - [ ] **[August 29 - September 5]:** Covering backlog.  
 
