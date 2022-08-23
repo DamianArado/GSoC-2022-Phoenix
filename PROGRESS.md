@@ -102,3 +102,11 @@ Here, I will log my weekly progress and learnings. This will be updated twice a 
 - I'm trying to find a way to create the required environment (possibly a [`headless-gl`](https://github.com/descriptinc/headless-gl) based environment) for these tests to execute themselves successfully on the CI.
 - The submitted PR that has been continuing since more than a week: https://github.com/HSF/phoenix/pull/492
 - By this week, I plan to get this PR merged and send one more with e2e tests that I'm currently working on locally as well.
+
+### Week 13 - 14 (August 22 - September 3, 2022)
+
+- The major focus would be to create a proper unit and e2e testing setup for Phoenix.
+- The unit testing setup that uses Jest is ready but it fails on the CI due to `WebGLRenderer`. The `headless-gl` library didn't help much on the CI in our case even though it worked fine locally. Running these tests inside docker also didn't work as we got the same error that we saw on the CI.
+- The end-to-end testing setup is ready and has been sent to be reviewed via: https://github.com/HSF/phoenix/pull/495
+- After this, I'll create a new branch `jasmine-karma` where I'll write the remaining unit tests using Jasmine.
+- And after this, we will decide whether we should use the Jest setup or the Jasmine setup on the master branch - this is quite critical as we would be maintaining the same setup in the future as well. 
