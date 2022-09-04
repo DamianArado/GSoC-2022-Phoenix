@@ -1,6 +1,6 @@
 # Project Progress Tracker 
 
-Here, I will log my weekly progress and learnings. This will be updated twice a week.
+Here, I will log my weekly progress and learnings. 
 
 ### Week 1 (May 30 - June 5, 2022)  
 
@@ -103,10 +103,15 @@ Here, I will log my weekly progress and learnings. This will be updated twice a 
 - The submitted PR that has been continuing since more than a week: https://github.com/HSF/phoenix/pull/492
 - By this week, I plan to get this PR merged and send one more with e2e tests that I'm currently working on locally as well.
 
-### Week 13 - 14 (August 22 - September 3, 2022)
+### Week 13 - 14 (August 22 - September 4, 2022)
 
 - The major focus would be to create a proper unit and e2e testing setup for Phoenix.
 - The unit testing setup that uses Jest is ready but it fails on the CI due to `WebGLRenderer`. The `headless-gl` library didn't help much on the CI in our case even though it worked fine locally. Running these tests inside docker also didn't work as we got the same error that we saw on the CI.
 - The end-to-end testing setup is ready and has been sent to be reviewed via: https://github.com/HSF/phoenix/pull/495
 - After this, I'll create a new branch `jasmine-karma` where I'll write the remaining unit tests using Jasmine.
 - And after this, we will decide whether we should use the Jest setup or the Jasmine setup on the master branch - this is quite critical as we would be maintaining the same setup in the future as well. 
+
+### Week 15 (September 5 - 11, 2022)
+
+- The duration of my project has been increased by 3 weeks thanks to my mentors and HSF GSoC admins. I was too engrossed in my college work (placement prep and homework) that the project got delayed by a couple of weeks so I needed to take this extension for completing the deliverables properly. I will work on the project during the evening and mail the progress weekly.
+- During this week, I will work to fix the error that we get on CI by mocking the WebGLRenderer completely. After fixing that, I'll start updating the Jasmine unit tests.
