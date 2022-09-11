@@ -115,3 +115,8 @@ Here, I will log my weekly progress and learnings.
 
 - The duration of my project has been increased by 3 weeks thanks to my mentors and HSF GSoC admins. I was too engrossed in my college work (placement prep and homework) that the project got delayed by a couple of weeks so I needed to take this extension for completing the deliverables properly. I will work on the project during the evening and mail the progress weekly.
 - During this week, I will work to fix the error that we get on CI by mocking the WebGLRenderer completely. After fixing that, I'll start updating the Jasmine unit tests.
+
+### Week 16 (September 12 - 18, 2022)
+
+- During this week, I have to complete the remaining work which includes finding a way to fix the console errors and adding unit tests in the jasmine setup.
+- Let me complete it ASAP and then I'll update it here.
