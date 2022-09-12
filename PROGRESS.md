@@ -118,5 +118,9 @@ Here, I will log my weekly progress and learnings.
 
 ### Week 16 (September 12 - 18, 2022)
 
-- During this week, I have to complete the remaining work which includes finding a way to fix the console errors and adding unit tests in the jasmine setup.
-- Let me complete it ASAP and then I'll update it here.
+- During this week, I have to complete the remaining work which includes: 
+  - Finding a way to ignore the non-zero exit code that we get on the CI only on the Jest setup.
+  - Add unit tests in Jasmine setup.
+- For info, both the setups are on different branches:
+  - Jest setup is on [`jest-ng`](https://github.com/HSF/phoenix/tree/jest-ng).
+  - Jasmine setup is on [`jasmine-ng`](https://github.com/HSF/phoenix/tree/jasmine-ng).
