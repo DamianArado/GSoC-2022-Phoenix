@@ -16,12 +16,12 @@
 
 - [x] **[July 29 - August 19]:** Introducing and setting up end-to-end (e2e) testing framework and write e2e tests for `phoenix-app` using Cypress.
 
-- [ ] **[August 19 - August 29]:** Creating a new branch `jasmine-karma` and adding more unit tests on this branch. After this, we will choose whether we should use Jest or Jasmine for unit tests in Phoenix.
+- [x] **[August 19 - August 29]:** Creating a new branch `jasmine-karma` and adding more unit tests on this branch. After this, we will choose whether we should use Jest or Jasmine for unit tests in Phoenix.
 
-- [ ] **[August 29 - September 5]:** Covering backlog.  
+- [x] **[August 29 - September 18]:** Covering backlog.  
 
-- [ ] **[September 5 - September 12]:** Contributor's Final Submission and Final Evaluation.
+- [x] **[September 19 - September 25]:** Contributor's Final Submission and Final Evaluation.
 
-- [ ] **[September 12 - September 19]:** Mentor Final Evaluation.  
+- [ ] **[September 26 - October 3]:** Mentor Final Evaluation.  
 
-Estimated duration: Approximately `18 weeks`.
+Duration: Approximately `19 weeks`.
