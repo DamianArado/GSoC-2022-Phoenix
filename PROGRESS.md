@@ -124,3 +124,8 @@ Here, I will log my weekly progress and learnings.
 - For info, both the setups are on different branches:
   - Jest setup is on [`jest-ng`](https://github.com/HSF/phoenix/tree/jest-ng).
   - Jasmine setup is on [`jasmine-ng`](https://github.com/HSF/phoenix/tree/jasmine-ng).
+
+### Week 17 (September 19 - 25, 2022)
+
+- This week is officially the final week for my project as I will be submitting the final evaluation form and I'm very glad to report that fortunately, all the deliverables of the project have been completed. Now, only the documentation for the new setup is to be added to the Phoenix Developer Guide.
+- I will update the blog for the HSF GSoC website and will continue to work on improvements later as well.
