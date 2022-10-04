@@ -22,6 +22,6 @@
 
 - [x] **[September 19 - September 25]:** Contributor's Final Submission and Final Evaluation.
 
-- [ ] **[September 26 - October 3]:** Mentor Final Evaluation.  
+- [x] **[September 26 - October 3]:** Mentor Final Evaluation.  
 
 Duration: Approximately `19 weeks`.
