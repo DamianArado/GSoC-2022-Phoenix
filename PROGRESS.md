@@ -129,3 +129,10 @@ Here, I will log my weekly progress and learnings.
 
 - This week is officially the final week for my project as I will be submitting the final evaluation form and I'm very glad to report that fortunately, all the deliverables of the project have been completed. Now, only the documentation for the new setup is to be added to the Phoenix Developer Guide.
 - I will update the blog for the HSF GSoC website and will continue to work on improvements later as well.
+
+### Post-GSoC (September 26 - )
+
+I plan to work on the following tasks:
+- Writing documentation for the new testing infra of Phoenix.
+- Add unit tests for `src/managers` and others that require mocks due to `WebGLRenderer`.
+- Fixing tests for `CMSComponent` and `EventDataExplorerDialogComponent` that are currently being skipped inside `phoenix-ng` and refactoring existing tests to avoid mocking the `EventDisplayService` and only mocking the `WebGLRenderer`.
